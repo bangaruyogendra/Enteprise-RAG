@@ -26,3 +26,10 @@ class QueryResponse(BaseModel):
     confidence:float
     audit_trace:AuditTrace
 
+
+class EmbeddingRequest(BaseModel):
+    text:str
+
+class EmbeddingResponse(BaseModel):
+    embedding:list[float]
+

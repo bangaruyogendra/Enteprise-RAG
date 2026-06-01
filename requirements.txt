@@ -24,3 +24,6 @@ opentelemetry-sdk
 prometheus-client
 langchain-text-splitters
 python-multipart
+chroma
+langchain-huggingface 
+sentence-transformers
